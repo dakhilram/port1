@@ -1,759 +1,138 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Your other head elements here -->
-    <!-- Add this in the head section of your HTML -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Lu/5s+td2Hvl0l5yX4UvX8QVIfWavFxz/8qFEuPFg+OHlI/n3kQf5FjGY2B8dPfMHb50W8iGVpXhQhBvQT+AxQ==" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Theme</title>
+    <style>
+        body {
+            background: radial-gradient(ellipse at left, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.8)),
+                        radial-gradient(ellipse at right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.8)),
+                        linear-gradient(to right, #4b306a, #9055a2); /* Adjust colors as needed */
+            background-blend-mode: screen;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevents scrollbars */
+        }
 
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            text-align: center;
+            padding: 50px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Add more styles as needed */
+
+    </style>
 </head>
 <body>
-    <header class="game-header">
-        <div class="cosmic-background"></div>
-        <div class="header-content">
-            <h1>Welcome, Explorer of the Cosmos!</h1>
-            <p>Embark on a cosmic journey through my quests</p>
-            <!-- Add this inside the header section, within the nav menu -->
-<nav class="game-menu">
-    <ul>
-        <li><a href="#player-profile">Player Profile</a></li>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#quests">Quests</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
 
-        </div>
+    <header>
+        <h1>Space Adventure</h1>
+        <p>Explore the wonders of the universe!</p>
     </header>
-    <!-- Add this section after the skills section -->
-<section id="player-profile" class="player-profile-section">
-    <div class="profile-content">
-        <h2>Player Profile</h2>
-        <div class="player-details">
-            <img src=".jpg" alt="Gamer Avatar">
-            <div class="details">
-                <p><strong>Username:</strong> Gargeya Akhilram Durgempudi</p>
-                <p><strong>Level:</strong> 21</p>
-                <p><strong>Favorite Game:</strong> GTA5</p>
-                <p><strong>Gaming Style:</strong> Casual, Competitive, Explorer, etc.</p>
-            </div>
-        </div>
-    </div>
-</section>
-    <!-- Add this inside the body section, after the header -->
-<!-- Update the intro section to include an ID -->
-<section id="about-me" class="intro-section">
-    <div class="cosmic-background"></div>
-    <div class="intro-content">
-        <h2>About Me</h2>
-        <p>Welcome to my cosmic realm! I'm Gargeya Akhilram Durgempudi, a passionate gamer and Computer Science graduate. Join me on an epic journey through the world of technology and creativity.</p>
-        <a href="#player-profile" class="cta-button">Explore My Profile</a>
-    </div>
-</section>
-<!-- Add this section after the intro section -->
-<section id="skills" class="skills-section">
-    <div class="skills-content">
-        <h2>Skills</h2>
-        <div class="skills-list">
-            <div class="skill">
-                <i class="fab fa-cuttlefish"></i> <!-- C -->
-                <p>C</p>
-            </div>
-            <div class="skill">
-                <i class="fab fa-cuttlefish"></i> <!-- C++ -->
-                <p>C++</p>
-            </div>
-            <div class="skill">
-                <i class="fab fa-java"></i> <!-- Java -->
-                <p>Java</p>
-            </div>
-            <div class="skill">
-                <i class="fab fa-python"></i> <!-- Python -->
-                <p>Python</p>
-            </div>
-            <div class="skill">
-                <i class="fab fa-html5"></i> <!-- HTML -->
-                <p>HTML</p>
-            </div>
-            <div class="skill">
-                <i class="fab fa-css3-alt"></i> <!-- CSS -->
-                <p>CSS</p>
-            </div>
-            <div class="skill">
-                <i class="fab fa-js"></i> <!-- JavaScript -->
-                <p>JavaScript</p>
-            </div>
-            <div class="skill">
-                <i class="fab fa-spring"></i> <!-- Spring -->
-                <p>Spring</p>
-            </div>
-            <div class="skill">
-                <i class="fab fa-linux"></i> <!-- Linux -->
-                <p>Linux</p>
-            </div>
-            <div class="skill">
-                <i class="fab fa-cloud"></i> <!-- Cloud Development -->
-                <p>Cloud Dev</p>
-            </div>
-            <div class="skill">
-                <i class="fas fa-gamepad"></i> <!-- Gaming -->
-                <p>Gaming</p>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Add this HTML code to your existing HTML file -->
-<section id="quests" class="quests-section">
-    <h2>Quests</h2>
-    <div id="questsContainer" class="quests-container">
-        <!-- Quest Card 1 -->
-        <div class="quest-card">
-            <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail">
-            <h3>Coding Challenge Conqueror</h3>
-            <p>Solved 100 coding challenges on LeetCode and HackerRank. Mastered algorithms and data structures.</p>
-        </div>
+    <section>
+        <h2>Galaxies</h2>
+        <p>Discover the beauty of distant galaxies.</p>
+        <!-- Add more content as needed -->
+    </section>
 
-        <!-- Quest Card 2 -->
-        <div class="quest-card">
-            <img src="opensource-contributions.jpg" alt="Open Source Contributions">
-            <h3>Open Source Contributor</h3>
-            <p>Contributed to various open-source projects on GitHub. Resolved issues and implemented new features.</p>
-        </div>
-
-        <!-- Quest Card 3 -->
-        <div class="quest-card">
-            <img src="personal-projects.jpg" alt="Personal Projects">
-            <h3>Project Maven</h3>
-            <p>Developed and showcased a series of personal projects, ranging from web applications to mobile apps.</p>
-        </div>
-
-        <!-- Add more quest cards as needed -->
-
-    </div>
-</section>
-
-
-
-
-
-<!-- Update the HTML for the Achievements Section with 8 achievements -->
-<section id="achievements" class="achievements-section">
-    <div class="achievements-content">
-        <h2>Achievements</h2>
-        <div id="achievementsSlider" class="achievements-slider">
-            <div class="achievement-card">
-                <img src="trophy-icon.png" alt="Trophy Icon">
-                <p>Winner of [Game Name] Tournament</p>
-            </div>
-            <div class="achievement-card">
-                <img src="medal-icon.png" alt="Medal Icon">
-                <p>Reached Level 50 in [Another Game]</p>
-            </div>
-            <div class="achievement-card">
-                <img src="star-icon.png" alt="Star Icon">
-                <p>Top Scorer in [Sports Game]</p>
-            </div>
-            <div class="achievement-card">
-                <img src="diamond-icon.png" alt="Diamond Icon">
-                <p>Unlocked Rare Achievement in [Adventure Game]</p>
-            </div>
-            <div class="achievement-card">
-                <img src="globe-icon.png" alt="Globe Icon">
-                <p>Played Games from 5 Different Countries</p>
-            </div>
-            <div class="achievement-card">
-                <img src="rocket-icon.png" alt="Rocket Icon">
-                <p>Launched into Orbit in [Space Game]</p>
-            </div>
-            <div class="achievement-card">
-                <img src="crown-icon.png" alt="Crown Icon">
-                <p>Crowned King of the Leaderboard</p>
-            </div>
-            <div class="achievement-card">
-                <img src="badge-icon.png" alt="Badge Icon">
-                <p>Earned Master Badge in [Strategy Game]</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<!-- Add this section after the quests section -->
-<section id="contact" class="contact-section">
-    <div class="contact-content">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me. Whether it's about gaming, collaboration, or just to say hi!</p>
-        <form id="contactForm" action="#" method="post">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your Email" required>
-
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" placeholder="Type your message here" required></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-    </div>
-</section>
-
-
-<!-- Add this script after the existing JavaScript code -->
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var achievementsSlider = document.getElementById('achievementsSlider');
-        var achievementCardsContainer = document.getElementById('achievementCardsContainer');
-        var achievementCards = document.querySelectorAll('.achievement-card');
-        var achievementCardWidth = achievementCards[0].offsetWidth;
-        var activeCardIndex = 0;
-
-        // Duplicate the achievement cards for continuous sliding
-        var duplicatedCards = achievementsSlider.innerHTML;
-        achievementsSlider.innerHTML += duplicatedCards;
-
-        // Set the width of the container to fit all duplicated cards
-        achievementCardsContainer.style.width = (achievementCardWidth * achievementCards.length * 2) + 'px';
-
-        // Start the sliding animation
-        setInterval(function () {
-            activeCardIndex++;
-            updateSlider();
-        }, 10000); // Adjust the duration for the sliding interval
-
-        // Function to update the slider
-        function updateSlider() {
-            var offset = -1 * activeCardIndex * achievementCardWidth;
-            achievementsSlider.style.transform = 'translateX(' + offset + 'px)';
-        }
-    });
-</script>
-
-
-    <!-- Add this script at the end of your body section, just before the closing </body> tag -->
-<script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-</script>
-<!-- Add this script after the existing JavaScript code -->
-<!-- Update this part of the script after the existing JavaScript code -->
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var pageUpBtn = document.getElementById('pageUpBtn');
-
-        // Show/hide the button based on scroll position
-        window.addEventListener('scroll', function () {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                pageUpBtn.style.display = 'block';
-            } else {
-                pageUpBtn.style.display = 'none';
-            }
-        });
-
-        // Smooth scroll to the top when the button is clicked
-        pageUpBtn.addEventListener('click', function () {
-            scrollToTop(1000); // Adjust the duration (in milliseconds) as needed
-        });
-
-        // Function for smooth scroll
-        function scrollToTop(duration) {
-            var start = window.pageYOffset;
-            var startTime = 'now' in window.performance ? performance.now() : new Date().getTime();
-
-            function scroll() {
-                var now = 'now' in window.performance ? performance.now() : new Date().getTime();
-                var time = Math.min(1, (now - startTime) / duration);
-                window.scroll(0, Math.ceil((easing(time) * (0 - start)) + start));
-
-                if (window.pageYOffset === 0) return;
-                requestAnimationFrame(scroll);
-            }
-
-            function easing(t) {
-                return t * (2 - t);
-            }
-
-            requestAnimationFrame(scroll);
-        }
-    });
-</script>
-<!-- Add this JavaScript code to your existing script tag or a new script file -->
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var questCards = document.querySelectorAll('.quest-card');
-
-        questCards.forEach(function (card) {
-            card.addEventListener('click', function () {
-                // Add logic to open a detailed view of the quest (e.g., modal or new page)
-                alert("Clicked on quest: " + card.querySelector('h3').textContent);
-            });
-        });
-    });
-</script>
-
-
-
-
-<!-- Add this just before the closing </body> tag -->
-<button id="pageUpBtn" title="Go to Top"><i class="fas fa-arrow-up"></i>⬆️</button>
-
+    <footer>
+        <p>&copy; 2024 Space Adventure</p>
+    </footer>
 
 </body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
 <style>
-
-/* Add these styles to your existing style.css file */
-
-/* General Styles */
-body {
-    background: url('c.jpg') no-repeat center center fixed; /* Replace with your cosmic background image */
-    background-size: cover;
-    color: #fff; /* Text color */
-    font-family: 'Arial', sans-serif; /* Use a suitable font */
-}
-
-/* Navigation Styles */
-nav {
-    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
-    padding: 15px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1.2em;
-}
-
-/* Section Title Styles */
-h2 {
-    color: #e0e0e0; /* Light gray for section titles */
-}
-
-/* Achievements, Quests, and Contact Sections Background */
-.achievements-section,
-.quests-section,
-.contact-section {
-    background-color: rgba(0, 0, 0, 0.9); /* Dark transparent background for sections */
-    padding: 40px;
-    border-top: 2px solid #333; /* Separate sections with a dark line */
-}
-
-/* Individual Achievements and Quests */
-.achievement,
-.quest {
-    background-color: rgba(0, 0, 0, 0.8); /* Slightly lighter transparent background for achievements and quests */
-}
-
-/* Contact Form Styles */
-#contactForm {
-    background-color: rgba(0, 0, 0, 0.9); /* Dark transparent background for contact form */
-    color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#contactForm label {
-    color: #e0e0e0; /* Light gray for form labels */
-}
-
-#contactForm input,
-#contactForm textarea {
-    background-color: #333; /* Dark input background */
-    color: #fff;
-    border: 1px solid #555; /* Dark border */
-}
-
-#contactForm button {
-    background-color: #29b6f6; /* Cosmic blue color for the button */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#contactForm button:hover {
-    background-color: #0277bd; /* Darker blue on hover */
-}
-
-
-
-
-    /* style.css */
-/* Header Styles */
-.game-header {
-    position: relative;
-    height: 100vh; /* Adjust as needed */
-    text-align: center;
-    color: #7bd179; /* Text color */
-}
-
-/* Cosmic Background */
-.cosmic-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('cosmic-background.jpg'); /* Replace with your own image */
-    background-size: cover;
-    opacity: 0.8;
-}
-
-/* Header Content Styles */
-.header-content {
-    position: relative;
-    z-index: 1;
-    padding: 100px 20px; /* Adjust padding as needed */
-}
-
-/* Header Title */
-.game-header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
-/* Header Subtitle */
-.game-header p {
-    font-size: 1.5em;
-    opacity: 0.8;
-}
-
-/* Update your existing CSS for Game Menu Styles */
-.game-menu {
-    text-align: center;
-    margin-top: 20px;
-}
-
-/* Menu Items */
-.game-menu ul {
-    list-style-type: none;
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
-}
-
-.game-menu li {
-    display: inline-block;
-    margin: 0 15px;
-}
-
-/* Menu Links */
-.game-menu a {
-    text-decoration: none;
-    color: #7899d1; /* Text color */
-    font-size: 1.2em;
-    transition: color 0.3s ease-in-out; /* Smooth transition effect */
-}
-
-/* Hover Effects */
-.game-menu a:hover {
-    color: #ffcc00; /* Hover color */
-}
-
-
-
-
-/* Intro Section Styles */
-.intro-section {
-    position: relative;
-    height: 100vh; /* Adjust as needed */
+    background-color: #f5f5f5;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    color: #39158d; /* Text color */
-}
-
-/* Cosmic Background (same as header, you can reuse the class) */
-.intro-section .cosmic-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('cosmic-background.jpg'); /* Replace with your own image */
-    background-size: cover;
-    opacity: 0.8;
-}
-
-/* Intro Content Styles */
-.intro-section .intro-content {
-    position: relative;
-    z-index: 1;
-    padding: 100px 20px; /* Adjust padding as needed */
-}
-
-/* Intro Title */
-.intro-section h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-/* Intro Text */
-.intro-section p {
-    font-size: 1.2em;
-    opacity: 0.9;
-    max-width: 800px;
-    margin: 0 auto 30px;
-}
-
-/* Call-to-Action Button */
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    text-decoration: none;
-    color: #8e5858;
-    background-color: #ffcc00; /* Button color */
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out;
-}
-
-/* Hover Effect for Button */
-.cta-button:hover {
-    background-color: #007BFF; /* Hover color */
-}
-
-
-/* Add this to your style.css */
-/* Skills Section Styles */
-.skills-section {
-    background-color: #d1caca; /* Dark background color */
-    color: #4d1010; /* Text color */
-    text-align: center;
-    padding: 80px 20px; /* Adjust padding as needed */
-}
-
-/* Skills Title */
-.skills-section h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-/* Skills List */
-.skills-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-/* Individual Skill Styles */
-.skill {
-    width: 150px;
-    margin: 20px 0;
-}
-
-.skill img {
-    max-width: 100%;
-}
-
-.skill p {
-    margin-top: 10px;
-    font-size: 1.2em;
-}
-
-
-
-/* Add this to your style.css */
-/* Player Profile Section Styles */
-.player-profile-section {
-    background-color: #333; /* Dark background color */
-    color: #100808; /* Text color */
-    text-align: center;
-    padding: 80px 20px; /* Adjust padding as needed */
-}
-
-/* Player Profile Title */
-.player-profile-section h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-/* Player Details Styles */
-.player-details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.player-details img {
-    border-radius: 50%;
-    width: 150px;
-    margin-right: 20px;
-}
-
-.player-details .details {
-    max-width: 400px;
-    text-align: left;
-}
-
-.player-details p {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-
-
-/* Add this to your existing style.css file */
-/* Page Up Button Styles */
-#pageUpBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #29b6f6; /* Cosmic blue color */
-    color: #fff; /* Text color */
-    border: none;
-    border-radius: 5px;
     padding: 10px;
-    font-size: 1.5em;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease-in-out;
-}
-
-#pageUpBtn:hover {
-    background-color: #0277bd; /* Darker blue on hover */
-}
-
-
-
-
-/* Add this CSS to your existing style.css file */
-/* Achievements Section Styles */
-.achievements-slider {
-    display: flex;
-    overflow-x: hidden;
-}
-
-.achievement-cards-container {
-    display: flex;
-}
-
-.achievement-card {
-    flex: 0 0 auto;
-    width: 300px;
-    margin-right: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 8s linear; /* Adjust the duration for the sliding speed */
-}
-
-.achievement-card img {
-    max-width: 100%;
-}
-
-.achievement-card p {
-    font-size: 1.2em;
-    margin-top: 10px;
-    padding: 10px;
-}
-
-
-
-
-
-
-/* Add this CSS code to your existing style.css file */
-/* Quests Section Styles */
-.quests-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.quest-card {
-    flex: 0 0 calc(33.333% - 20px);
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.quest-card:hover {
-    transform: scale(1.05);
-}
-
-.quest-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.quest-card h3 {
-    margin: 10px;
-}
-
-.quest-card p {
-    margin: 0 10px 10px;
-}
-
-
-
-/* Add this to your style.css */
-/* Contact Section Styles */
-.contact-section {
-    background-color: #666; /* Dark background color */
-    color: #000000; /* Text color */
-    text-align: center;
-    padding: 80px 20px; /* Adjust padding as needed */
-}
-
-/* Contact Title */
-.contact-section h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.contact-section p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-/* Contact Form Styles */
-#contactForm {
-    max-width: 500px;
+  }
+  .container {
+    max-width: 900px;
     margin: 0 auto;
-}
-
-#contactForm label {
-    display: block;
-    text-align: left;
-    margin-bottom: 5px;
-}
-
-#contactForm input,
-#contactForm textarea {
-    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  h1, h2 {
+    color: #333;
+  }
+  .project {
+    border: 1px solid #ddd;
     padding: 10px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-}
-
-#contactForm button {
-    padding: 10px 20px;
-    font-size: 1.2em;
-    background-color: #007BFF; /* Button color */
-    color: #ffffff; /* Text color */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-}
-
-#contactForm button:hover {
-    background-color: #0056b3; /* Hover color */
-}
-
+    margin-bottom: 20px;
+  }
+  .project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .links {
+    margin-top: 10px;
+  }
 </style>
-
-
-
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Welcome to my portfolio! Explore my projects, research, skills, and achievements.</p>
+  </header>
+  <div class="container">
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1: [Project Name]</h3>
+        <p>Description: Briefly describe the project and its goals.</p>
+        <img src="link-to-screenshot-image.png" alt="Project 1 Screenshot">
+        <div class="links">
+          <a href="link-to-live-demo">Live Demo</a> | <a href="link-to-github-repo">GitHub Repository</a>
+        </div>
+      </div>
+      <!-- Repeat for other projects -->
+    </section>
+    
+    <!-- Add other sections here -->
+    
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p>Email: [Your Email]<br>
+         LinkedIn: <a href="[Your LinkedIn Profile URL]">[Your LinkedIn Profile]</a><br>
+         GitHub: <a href="[Your GitHub Profile URL]">[Your GitHub Profile]</a></p>
+    </section>
+  </div>
+</body>
 </html>
